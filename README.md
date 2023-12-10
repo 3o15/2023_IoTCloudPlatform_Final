@@ -1,4 +1,4 @@
-# 2023_IoTCloudPlatform_Final
+![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/61bcc814-e954-4357-bd5c-95677ba78f6b)# 2023_IoTCloudPlatform_Final
 ## AWS를 이용한 IoT 클라우드 플랫폼 프로젝트
 ### 주제 : IoT PetCare Sentinel; IoT 애완동물 케어 서비스
 
@@ -31,3 +31,19 @@ _*이 데이터들이 쌓여 추후 애완동물의 건강에 문제가 생겨 �
 
 ![깃헙 사진](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/3344e0ed-4c03-4aca-95b4-d80f508762c2)
 
+Amazon API Gateway는 AWS Lambda함수를 통해서 다음 기능을 수행하는 두 가지 REST API를 게시한다.
+- AWS IoT Core에 등록된 디바이스 목록을 조회하는 REST API
+- 디바이스의 정보를 변경하거나 조회하는 REST API
+- 디바이스의 로그 정보를 조회하는 REST API
+
+<앱 실행 화면>
+
+![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/b9e585ae-a0dd-43f4-964c-c7fb65940748)
+
+1. 메인 화면에서 알맞은 Gateway URI를 입력한다.
+2. "사물목록 조회" 버튼을 클릭하면 IoTCore에 등록되어 있는 사물의 목록을 확인할 수 있다.
+3. 알맞은 사물을 선택한 후, "사물상태 조회/변경" 버튼을 클릭하면 사물의 상태를 조회 및 변경할 수 있는 창이 뜬다.
+4. 조회 버튼을 클릭하면 현재 사물이 읽어오는 값을 띄우기 때문에 실시간으로 값이 변하는 것을 확인할 수 있다.
+5. 변경하는 곳에 알맞은 문자열(open/close)를 입력한 후 변경 버튼을 누르면 값이 변하는 것을 확인할 수 있다. 앱을 통해 변경한 값이 AWS에 들어가고, AWS는 사물에게 전달하여 변경된 값으로 제어를 진행하게 된다.
+6. "로그 조회" 버튼을 클릭하면 DynamoDB에 올라와있는 로그값들을 조회할 수 있는 창이 뜬다.
+7. 조회할 로그 시간값을 입력하고 조회 버튼을 클릭하면 밑에 DynamoDB에 올라와있는 해당 시간대의 로그값들이 리스트로 쫙 뜨는 것을 확인할 수 있다. 
