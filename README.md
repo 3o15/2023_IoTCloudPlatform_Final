@@ -24,6 +24,7 @@ _*이 데이터들이 쌓여 추후 애완동물의 건강에 문제가 생겨 �
 4. arduino_secrets.h에 자신의 wifi 정보/ 엔드포인트/ 인증서를 올바르게 작성하고 업로드하여 Serial Monitor로 network와 MQTT broker에 connect한다.
 5. AWS DynamoDB 테이블 / Lambda함수 / 규칙을 만든다.
 6. API Gateway를 이용한 RestAPI 생성한다. (디바이스 목록 조회/ 상태 조회,변경/ 로그 조회 REST API)
+7. 앱에서 Gateway URI를 입력한다.
 
 ## 구조
 ![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117139643/50799ad0-dc79-4dd9-86b9-031956e713a4)
