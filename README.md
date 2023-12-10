@@ -1,4 +1,3 @@
-![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/61bcc814-e954-4357-bd5c-95677ba78f6b)# 2023_IoTCloudPlatform_Final
 ## AWS를 이용한 IoT 클라우드 플랫폼 프로젝트
 ### 주제 : IoT PetCare Sentinel; IoT 애완동물 케어 서비스
 
@@ -38,7 +37,7 @@ Amazon API Gateway는 AWS Lambda함수를 통해서 다음 기능을 수행하�
 
 <앱 실행 화면>
 
-![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/b9e585ae-a0dd-43f4-964c-c7fb65940748)
+![image](https://github.com/3o15/2023_IoTCloudPlatform_Final/assets/117643317/4c41eaec-004e-40e5-bc4b-96d7085551e9)
 
 1. 메인 화면에서 알맞은 Gateway URI를 입력한다.
 2. "사물목록 조회" 버튼을 클릭하면 IoTCore에 등록되어 있는 사물의 목록을 확인할 수 있다.
